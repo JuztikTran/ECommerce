@@ -22,23 +22,13 @@ namespace Backend.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Account>()
-                .ToTable("Account")
-                .HasOne<Account>()
-                .WithOne()
-                .OnDelete(deleteBehavior: DeleteBehavior.SetNull);
+                .ToTable("Account");
 
             modelBuilder.Entity<User>()
-                .ToTable("User")
-                .HasOne<User>()
-                .WithMany()
-                .HasForeignKey(u=>u.ID)
-                .OnDelete(DeleteBehavior.NoAction);
+                .ToTable("User");
 
             modelBuilder.Entity<Address>()
-                .ToTable("Address")
-                .HasOne<Address>()
-                .WithOne()
-                .OnDelete(DeleteBehavior.NoAction);
+                .ToTable("Address");
 
             modelBuilder.Entity<Cart>()
                 .ToTable("Cart");
@@ -47,45 +37,22 @@ namespace Backend.Data
                 .ToTable("Category");
 
             modelBuilder.Entity<Product>()
-                .ToTable("Product")
-                .HasOne<Product>()
-                .WithMany()
-                .HasForeignKey(u => u.ID)
-                .OnDelete(DeleteBehavior.Cascade);
+                .ToTable("Product");
 
             modelBuilder.Entity<ProductOption>()
-                .ToTable("ProductOption")
-                .HasOne<ProductOption>()
-                .WithMany()
-                .HasForeignKey(u => u.ID)
-                .OnDelete(DeleteBehavior.SetNull);
+                .ToTable("ProductOption");
 
-            modelBuilder.Entity<Order>().ToTable("Order")
-                .HasOne<Order>()
-                .WithMany()
-                .HasForeignKey(u => u.ID)
-                .OnDelete(DeleteBehavior.SetNull);
+            modelBuilder.Entity<Order>()
+                .ToTable("Order");
 
             modelBuilder.Entity<OrderTracking>()
-                .ToTable("OrderTracking")
-                .HasOne<OrderTracking>()
-                .WithMany()
-                .HasForeignKey(u => u.ID)
-                .OnDelete(DeleteBehavior.Cascade);
+                .ToTable("OrderTracking");
 
             modelBuilder.Entity<Payment>()
-                .ToTable("Payment")
-                .HasOne<Payment>()
-                .WithMany()
-                .HasForeignKey(u => u.ID)
-                .OnDelete(DeleteBehavior.SetNull);
+                .ToTable("Payment");
 
             modelBuilder.Entity<PaymentMethod>()
-                .ToTable("PaymentMethod")
-                .HasOne<PaymentMethod>()
-                .WithMany()
-                .HasForeignKey(u => u.ID)
-                .OnDelete(DeleteBehavior.Cascade);
+                .ToTable("PaymentMethod");
         }
     }
 }
