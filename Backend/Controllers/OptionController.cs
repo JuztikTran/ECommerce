@@ -49,8 +49,8 @@ namespace Backend.Controllers
             return StatusCode(response.StatusCode, response.Message);
         }
 
-        [HttpDelete("forgot-pass")]
-        public async Task<IActionResult> ForgotPass([FromRoute] string id)
+        [HttpDelete("delete/{id}")]
+        public async Task<IActionResult> Delete([FromRoute] string id)
         {
             var response = await _repo.DeleteOption(id);
             return StatusCode(response.StatusCode, response.Message);
