@@ -19,6 +19,7 @@ odataBuilder.EntitySet<Category>("category");
 odataBuilder.EntitySet<Product>("product");
 odataBuilder.EntitySet<ProductOption>("product-option");
 odataBuilder.EntitySet<Cart>("cart");
+odataBuilder.EntitySet<Order>("order");
 builder.Services.AddControllers()
     .AddOData(options => options
         .SetMaxTop(100)
@@ -39,6 +40,7 @@ builder.Services.AddScoped<IAddressRepository, AddressRepository>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<ICartRepository, CartRepository>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 
 var app = builder.Build();
 using (var scope = app.Services.CreateScope())
