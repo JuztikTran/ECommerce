@@ -10,6 +10,7 @@ namespace Backend.Data
         public DbSet<Account> Accounts{ get; set; }
         public DbSet<User> Users{ get; set; }
         public DbSet<Address> Addresses{ get; set; }
+        public DbSet<Category> Categories{ get; set; }
         public DbSet<Cart> Carts{ get; set; }
         public DbSet<Product> Products{ get; set; }
         public DbSet<ProductOption> Options{ get; set; }
@@ -41,6 +42,9 @@ namespace Backend.Data
 
             modelBuilder.Entity<Cart>()
                 .ToTable("Cart");
+
+            modelBuilder.Entity<Category>()
+                .ToTable("Category");
 
             modelBuilder.Entity<Product>()
                 .ToTable("Product")
