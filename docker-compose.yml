@@ -1,0 +1,51 @@
+networks:
+  backend:
+
+volumes:
+  pgadmindata:    
+  appdata:
+
+services:
+
+  pgadmin:
+    container_name: ecommerce-pgadmin
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL:-admin@ecommerce.store}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD:-admin}
+      PGADMIN_CONFIG_SERVER_MODE: 'False'
+    volumes:
+      - pgadmindata:/var/lib/pgadmin
+    ports:
+      - "${PGADMIN_PORT:-5050}:80"
+    networks:
+      - backend
+    restart: unless-stopped
+
+  appdata:
+    container_name: app-data
+    image: postgres
+    ports:
+      - "5433:5432"
+    networks:
+      - backend
+    environment:
+      - POSTGRES_DB=appdb
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin@123
+    volumes:
+      - appdata:/var/lib/postgresql/data
+
+  webapiservice:
+    container_name: web-api-service
+    image: ${DOCKER_REGISTRY-}webapiservice
+    ports:
+        - "8080:8080"
+        - "8000:8081"
+    build:
+      context: .
+      dockerfile: WebApiService/Dockerfile
+    networks:
+        - backend
+    depends_on:
+        - appdata
