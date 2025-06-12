@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MyProject\\ServiceAPI\\ECommerceApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56398438-C068-4D1D-B731-EEBE01D68E0F}|BusinessObjetcs\\BusinessObjetcs.csproj|d:\\myproject\\serviceapi\\ecommerceapi\\businessobjetcs\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56398438-C068-4D1D-B731-EEBE01D68E0F}|BusinessObjetcs\\BusinessObjetcs.csproj|solutionrelative:businessobjetcs\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56398438-C068-4D1D-B731-EEBE01D68E0F}|BusinessObjetcs\\BusinessObjetcs.csproj|d:\\myproject\\serviceapi\\ecommerceapi\\businessobjetcs\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56398438-C068-4D1D-B731-EEBE01D68E0F}|BusinessObjetcs\\BusinessObjetcs.csproj|solutionrelative:businessobjetcs\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D372746-7504-488D-8A07-B248EA66E655}|Backend\\Backend.csproj|d:\\myproject\\serviceapi\\ecommerceapi\\backend\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D372746-7504-488D-8A07-B248EA66E655}|Backend\\Backend.csproj|solutionrelative:backend\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D372746-7504-488D-8A07-B248EA66E655}|Backend\\Backend.csproj|d:\\myproject\\serviceapi\\ecommerceapi\\backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D372746-7504-488D-8A07-B248EA66E655}|Backend\\Backend.csproj|solutionrelative:backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D372746-7504-488D-8A07-B248EA66E655}|Backend\\Backend.csproj|d:\\myproject\\serviceapi\\ecommerceapi\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D372746-7504-488D-8A07-B248EA66E655}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|d:\\myproject\\serviceapi\\ecommerceapi\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|d:\\myproject\\serviceapi\\ecommerceapi\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D372746-7504-488D-8A07-B248EA66E655}|Backend\\Backend.csproj|d:\\myproject\\serviceapi\\ecommerceapi\\backend\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7D372746-7504-488D-8A07-B248EA66E655}|Backend\\Backend.csproj|solutionrelative:backend\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\MyProject\\ServiceAPI\\ECommerceApi\\BusinessObjetcs\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BusinessObjetcs\\Models\\User.cs",
+              "ToolTip": "D:\\MyProject\\ServiceAPI\\ECommerceApi\\BusinessObjetcs\\Models\\User.cs",
+              "RelativeToolTip": "BusinessObjetcs\\Models\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:33:58.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "D:\\MyProject\\ServiceAPI\\ECommerceApi\\Backend\\Repository\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\Repository\\AccountRepository.cs",
+              "ToolTip": "D:\\MyProject\\ServiceAPI\\ECommerceApi\\Backend\\Repository\\AccountRepository.cs",
+              "RelativeToolTip": "Backend\\Repository\\AccountRepository.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAuwFIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:20:30.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\MyProject\\ServiceAPI\\ECommerceApi\\Backend\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Backend\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\MyProject\\ServiceAPI\\ECommerceApi\\Backend\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Backend\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:19:41.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\MyProject\\ServiceAPI\\ECommerceApi\\BusinessObjetcs\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "BusinessObjetcs\\Models\\Account.cs",
+              "ToolTip": "D:\\MyProject\\ServiceAPI\\ECommerceApi\\BusinessObjetcs\\Models\\Account.cs",
+              "RelativeToolTip": "BusinessObjetcs\\Models\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:19:30.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MyProject\\ServiceAPI\\ECommerceApi\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Program.cs",
+              "ToolTip": "D:\\MyProject\\ServiceAPI\\ECommerceApi\\Backend\\Program.cs",
+              "RelativeToolTip": "Backend\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:16:02.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "docker-compose",
+              "DocumentMoniker": "D:\\MyProject\\ServiceAPI\\ECommerceApi\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "D:\\MyProject\\ServiceAPI\\ECommerceApi\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-11T13:13:11.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\MyProject\\ServiceAPI\\ECommerceApi\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "D:\\MyProject\\ServiceAPI\\ECommerceApi\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-06-11T13:12:28.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\MyProject\\ServiceAPI\\ECommerceApi\\Backend\\Dockerfile",
+              "RelativeDocumentMoniker": "Backend\\Dockerfile",
+              "ToolTip": "D:\\MyProject\\ServiceAPI\\ECommerceApi\\Backend\\Dockerfile",
+              "RelativeToolTip": "Backend\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-11T13:10:27.117Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
